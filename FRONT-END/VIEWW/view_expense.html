@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Expense</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>View Expenses</h1>
+        <nav class="nav">
+            <button class="btn" onclick="window.location.href='yindex.html'">Home</button> </a>
+            <button class="btn" onclick="window.location.href='add_expense.html'">Add expense</button> </a>
+            <button class="btn" onclick="window.location.href='edit_expense.html'">Edit expense</button></a>
+            <button class="btn" onclick="window.location.href='logout.html'">Logout</button></a>
+
+            </nav>
+
+    </header>
+    <main>
+        <table id="expenseTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <footer class="footer">
+        &copy; 2022 Expense Tracker. All rights reserved.
+    </footer>
+    <script src="view_expense.js"></script>
+
+    
+</body>
+
+</html>
